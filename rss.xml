@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+	<channel>
+		<title>PoC||GTFO</title>
+		<link>http://misterglass.github.io/POC--GTFO/</link>
+		<description>A weblog about scripting and stuff like that.</description>
+		<language>en-us</language>
+		<lastBuildDate>07 Oct 2013 15:12:00 GMT</lastBuildDate>
+		<item>
+			<title>Issue 0x01 an Epistle to the 10th H2HC in S&#227;o Paulo</title>
+			<link>http://misterglass.github.io/POC--GTFO/pocorgtfo01.pdf</link>
+			<description>
+                &lt;p&gt;Neighbors, please join me in reading this second issue of the International Journal of Proof of Concept or Get the Fuck Out, a friendly little collection of articles for ladies and gentlemen of distinguished ability and taste in the field of software exploitation and the worship of weird machines. If you are missing Issue 0x00, we politely suggest pirating it from the usual locations, or on paper from a neighbor who picked up a copy in Vegas.&lt;/p&gt;
+                &lt;p&gt;In Section 2, Dan Kaminsky presents of all strange things a defensive PoC! His four lines of Javascript seem to produce random bytes, but that can’t possibly be right. If you disagree with him, POC||STFU.&lt;/p&gt;
+                &lt;p&gt;This issue’s devotional is in Section 3, where Travis Goodspeed shares a thought experiment in which Ada Lovelace and Serena Butler fight on opposite sides of the Second War on General Purpose Computing using Don Lancaster’s TV Typewriter as ammunition.&lt;/p&gt;
+                &lt;p&gt;In the grand tradition of backfiring parse tree differentials, Ange Albertini shares in Section 4 a nifty trick for creating a PE file that is interpreted differently by Windows XP, 7, and 8. Perhaps you’ll use this as an anti-reversing trick, or perhaps you’ll finally learn why TinyPE doesn’t work after XP. Either way, neighborliness abounds.&lt;/p&gt;
+                &lt;p&gt;In Section 5, Julia Wolf demonstrates on four napkins how to make a PDF that is also a ZIP. Perhaps, dear reader, if you are reading this from a PDF you might find a file or two to be attached?&lt;/p&gt;
+                &lt;p&gt;In Section 6, Josh Thomas will teach you a how to permanently brick an Android phone by screwing around with its voltage regulators in quick kernel patch. We the editors remind readers to send only quality, technical correspondence to Josh; any rubbish that merely advocates your chosen brand of cellphone should be sent to jobs@paper.li.&lt;/p&gt;
+                &lt;p&gt;Today’s sermon, to be found in Section 7, concerns the divinity of programming languages, from PHP to BASIC. Following along with a little scripture and a lot of liquor, we’ll see that every language has a little something special to make it worth learning and teaching. Except Java.&lt;/p&gt;
+                &lt;p&gt;Finally, in Section 8, we pass the collection plate and beg that you contribute some PoC of your own. Articles should be short and sweet, written such that a reader will be inspired to build something clever.&lt;/p&gt;
+                &lt;p&gt;This issue is dedicated to the continuing ministry of Mitch Altman, a Johnny Appleseed of soldering literacy who has taught countless adults and countless children in countless cities to build their own elec-tronics.&lt;/p&gt;
+            </description>
+			<guid>http://misterglass.github.io/POC--GTFO/pocorgtfo01.pdf</guid>
+			<pubDate>07 Oct 2013 14:30:00 GMT</pubDate>
+        </item>
+		<item>
+			<title>Issue 0x00 a CFP with PoC</title>
+			<link>http://misterglass.github.io/POC--GTFO/pocorgtfo00.pdf</link>
+			<description>
+                &lt;p&gt;Neighbors, please join me in reading this first issue of the International Journal of Proof of Concept or Get the Fuck Out, a friendly little journal for ladies and gentlemen of distinguished ability and taste in the field of computer security and the architecture of weird machines.&lt;/p&gt;
+                &lt;p&gt;In Section 2, Travis Goodspeed will show you how to build your own antiforensics hard disk out of an iPod by simple patching of the open source Rockbox firmware. The result is a USB disk, which still plays music, but which will also self destruct if forensically imaged.&lt;/p&gt;
+                &lt;p&gt;In Section 3, Julian Bangert and Sergey Bratus provide some nifty tricks for abusing the differences in ELF dialect between exec() and ld.so. As an example, they produce a file that is both a library and an executable, to the great confusion of reverse engineers and their totally legitimate IDA Pro licenses.&lt;/p&gt;
+                &lt;p&gt;Section 4 is a sermon on the subjects of Bitcoin, Phrack, and the den on iniquity known as the RSA Conference, inviting all of you to kill some trees in order to save some source. It brings the joyful news that we should all shut the fuck up about hat colors and get back to hacking!&lt;/p&gt;
+                &lt;p&gt;Delivering even more nifty ELF research, Bx presents in Section 5 a trick for returning from the ELF loader into a libc function by abuse of the IFUNC symbol. There's a catch, though, which is that on amd64 her routine seems to pass a very restricted set of arguments. The first parameter must be zero, the second must be the address of the function being called, and the third argument must be the address of the symbol being dereferenced. Readers who can extend this into an arbitrary return to libc are urged to do it and share the trick with others!&lt;/p&gt;
+                &lt;p&gt;Remembering good times, Section 6 by FX tells us of an adventure with Barnaby Jack, one which features a golden vending machine and some healthy advice to get the fuck out of Abu Dhabi.&lt;/p&gt;
+                &lt;p&gt;Finally, in Section 7, we pass the collection plate and beg that you contribute some PoC of your own. Articles should be short and sweet, written such that a clever reader will be inspired to build something nifty.&lt;/p&gt;
+            </description>
+			<guid>http://misterglass.github.io/POC--GTFO/pocorgtfo00.pdf</guid>
+			<pubDate>08 Aug 2013 16:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
